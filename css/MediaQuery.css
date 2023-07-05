@@ -1,0 +1,38 @@
+@media screen and (min-width: 1200px) {
+  body {
+    background: hsl(257, 40%, 49%) url(../images/bg-desktop.svg) no-repeat center top;
+  }
+  header img {
+    width: 200px;
+  }
+  main {
+    flex-direction: row;
+  }
+  main section#apresentacao {
+    padding: 30px;
+    width: 37.9%;
+    text-align: left;
+    line-height: 1.5;
+  }
+  main section#apresentacao h1 {
+    font-size: 3em;
+    margin: 20px 0;
+  }
+  main section#apresentacao p {
+    font-size: 1.2em;
+    font-weight: 400;
+  }
+  main section#apresentacao button {
+    width: 40%;
+  }
+  footer {
+    justify-content: end;
+  }
+  footer div#social {
+    gap: 30px;
+  }
+  footer div#social i {
+    transform: scale(1.5);
+    padding: 5px;
+  }
+}/*# sourceMappingURL=MediaQuery.css.map */

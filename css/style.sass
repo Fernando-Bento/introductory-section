@@ -1,0 +1,66 @@
+$Violet: hsl(257, 40%, 49%)
+$Soft-Magenta: hsl(300, 69%, 71%)
+
+$OpenSans: 'Open Sans', sans-serif
+$Poppins: 'Poppins', sans-serif
+
+body
+    background: $Violet url(../images/bg-mobile.svg) no-repeat center top
+    background-size: contain
+
+header
+    padding: 50px
+    img
+        width: 150px
+
+main
+    display: flex
+    flex-direction: column
+    gap: 50px
+    padding: 0 50px
+    section#img
+        display: flex
+        justify-content: center
+        align-items: center
+        img
+            width: 100%
+    section#apresentacao
+        text-align: center
+        line-height: 1.5
+        h1
+            font-size: 2em
+            margin: 20px 0
+            font-family: $Poppins
+        p
+            font-size: 1.3em
+            font-family: $OpenSans
+        
+        button
+            cursor: pointer
+            border: none
+            color: $Violet
+            font-weight: 600
+            width: 70%
+            margin: 30px
+            padding: 20px
+            border-radius: 30px
+            transition: background-color .3s,color .3s
+            box-shadow: 0px 0px 10px #0000006b
+            &:hover
+                background-color: $Soft-Magenta
+                color: white
+
+footer
+    display: flex
+    justify-content: center
+    padding: 50px
+    div#social
+        display: flex
+        gap: 20px
+        i
+            border: 1px solid white
+            border-radius: 50%
+            padding: 10px
+            transition: .5s
+            &:hover
+                filter: invert(1)
